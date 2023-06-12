@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script>
+        $(document).ready(function() {
+            //변수를 선언합니다.
+            var text = $('h1').text(); //모든 h1 태그의 text를 반환
+            var html = $('h1').html(); //첫번째 h1태그의 text를 반환
+
+            //출려합니다.
+
+            alert("text: " + text);
+            alert("html: " + html);
+        });
+    </script>
+</head>
+<body>
+    <h1>Header - 0</h1>
+    <h1>Header - 1</h1>
+</body>
+</html>
